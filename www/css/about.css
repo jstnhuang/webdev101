@@ -1,0 +1,27 @@
+.memCard {
+	height: 150px;
+	width: 46%;
+	margin: 5px;
+	border: 1px solid #00334A;
+	padding: 5px;
+	float: left;
+}
+.memCard img {
+	float: left;
+	margin-right: 5px;
+}
+.memInfo {
+}
+.memName {
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	height: 50px;
+}
+.memContent {
+	margin: 0px;
+	font-style: italic;
+	height: 50px;
+}
+.memEmail {
+}

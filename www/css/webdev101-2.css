@@ -1,0 +1,149 @@
+@media screen {
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+}
+
+body {
+  margin: 0px;
+  margin-top: 53px;
+  font-family: 'Open Sans', Sans-serif;
+  background-image: url('/images/bgtile.png');
+  background-color: #ece9d8;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+#content {
+  margin: 0px auto;
+  padding: 5px;
+  width: 90%;
+  min-width: 820px;
+  max-width: 1280px;
+  overflow: auto;
+}
+
+.pageBox {
+  background-color: white;
+}
+
+.contentBox {
+  background-color: white;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+#header {
+  color: white;
+  background-color: #007bad;
+  border-bottom: 4px solid #ddd;
+  min-width: 820px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 40px;
+  z-index: 3;
+}
+
+.logo {
+  float: left;
+  width: 113px;
+  height: 38px;
+  margin-top: -8px;
+  margin-right: 5px;
+  padding: 0px 2px;
+}
+
+.logo:hover {
+  background-color: #118cbe;
+}
+
+#header .headerLogo {
+  border: none;
+}
+
+#navBar {
+	min-width: 820px;
+  max-width: 1280px;
+  width: 90%;
+	margin: 10px auto 0px auto;
+	font-size: 0.9em;
+}
+#navBar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#navBar li {
+  float: left;
+}
+#navBar ul a {
+	display: block;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+	padding: 0px 10px;
+	color: #fff;
+  border-radius: 1px;
+}
+#navBar ul a:hover {
+	background-color: #118cbe;
+}
+
+#my101 {
+  float: right;
+}
+
+a.bigButton.highlight {
+  background-color: #007bad;
+  border-top: none;
+  border-left: none;
+  border-right: 1px solid #006a9c;
+  border-bottom: 1px solid #006a9c;
+  color: white;
+}
+
+a.bigButton {
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  color: black;
+  font-size: 1.25em;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+a.bigButton:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  width: 90%;
+  min-width: 820px;
+  max-width: 1280px;
+  color: #555;
+  font-size: 0.75em;
+  margin: 10px auto 20px auto;
+  border-top: 1px solid #555;
+}
+
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer a:visited {
+  color: #000;
+}

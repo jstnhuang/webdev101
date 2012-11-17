@@ -1,0 +1,42 @@
+.course h1 {
+  margin: 5px 0px;
+  font-size: 1.5em;
+}
+
+.course h2 {
+  margin: 10px 0px 5px 0px;
+  font-size: 1.25em;
+}
+
+.course h3 {
+  font-size: 1.1em;
+  margin: 0px;
+}
+
+.course p {
+  margin: 5px 0px;
+}
+
+.exercise + .exercise {
+  margin: 15px 0px;
+}
+
+.courseVideo {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.courseVideoWrapper {
+  margin: 0px auto;
+  width: 640px;
+}
+
+code, .code {
+    font-family: Consolas, Monaco, Monospace;
+    font-size:1em;
+    background-color: #f3f3ff;
+}
+.term {
+    font-weight: bold;
+}

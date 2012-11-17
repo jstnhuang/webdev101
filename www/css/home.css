@@ -1,0 +1,89 @@
+.homeInfo {
+  margin: 0px auto;
+  padding-left: 60px;
+  overflow: auto;
+}
+
+.homeInfoNav {
+  float: left;
+  width: 152px;
+  margin-left: -60px;
+}
+
+.homeInfoNav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.homeInfoNav a {
+  display: block;
+  font-size: 1.2em;
+  color: #000;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  border: 1px solid #888;
+  height: 50px;
+  width: 150px;
+  border-radius: 2px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0px;
+  opacity: 0.9;
+}
+
+.homeInfoNav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  border: 1px solid #555;
+}
+
+.homeInfoContainer {
+  background-image:url("images/home/background1.jpg");
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.homeInfoFeature {
+  float: right;
+  margin: 0px 0px 5px 5px;
+}
+
+.homeInfoFeature img {
+  margin-bottom: 5px;
+}
+
+.homeInfoDescription {
+  border-radius: 2px;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 10px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.homeInfoDescription h1 {
+  margin-top: 0px;
+}
+
+.homeInfoDescription h2 {
+  margin-bottom: 0px;
+}
+
+.homeInfoDescription h2 + p {
+  margin-top: 5px;
+}
+
+a.active {
+  opacity: 1;
+  font-weight: bold;
+  border: 1px solid #555;
+}
+
+a.active:hover {
+  opacity: 1;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #555;
+}

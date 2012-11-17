@@ -1,0 +1,364 @@
+.standardContent {
+  margin: 40px auto 0px auto;
+  padding: 10px;
+}
+
+.contentBox {
+  margin: 0px auto;
+  width: 90%;
+  min-width: 820px;
+  max-width: 1024px;
+  overflow: auto;
+}
+
+.contentBox a {
+  text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #ece9d8;
+}
+
+a {
+    text-decoration: none;
+    color: #007bad;
+    outline: 0;
+}
+
+a img {
+    border: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote, pre {
+    margin-left: 40px;
+}
+
+#header {
+    background-color: #007bad;
+    border-bottom: 4px solid #ddd;
+    font-family: Calibri, Sans-serif;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    min-width: 820px;
+    position: relative;
+}
+
+#header .headerLogo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#header h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+#header h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.pageBox {
+    background-color: #fff;
+    width: 90%;
+    min-width: 820px;
+    max-width: 1024px;
+    margin: 0px auto 10px auto;
+    padding: 10px;
+    border: 1px solid #b1b3a7;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fullPage {
+    background-color: #fff;
+    width: 95%;
+    margin: 0px auto 10px auto;
+    padding: 10px;
+    border: 1px solid #b1b3a7;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.caption {
+    color: #333;
+    font-family: Arial, Sans-serif;
+    font-size: 0.7em;
+    text-align: left;
+}
+
+.feature {
+    font-family: Calibri, Sans-serif;
+    padding: 10px;
+    overflow: auto;
+}
+
+.feature.tutorial {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.feature.tutorial a {
+    color: black;
+}
+.feature.tutorial h2 {
+    margin: 0px;
+    text-align: center;
+    font-family: "Lobster", Calibri, Sans-serif;
+    font-size: 2em;
+    border-bottom: 1px solid #555;
+}
+
+.feature.photo {
+    padding-bottom: 2px;
+}
+.feature.photo img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #b1b3a7;
+    border-right: none;
+    border-bottom: none;
+}
+
+.imgHolder {
+    width: 100%;
+    overflow: hidden;
+}
+
+#content {
+    font-family: Calibri, Sans-serif;
+    overflow: auto;
+}
+
+#content h2 {
+    color: #00334A;
+    font-family: Times New Roman, Serif;
+    font-size: 1.5em;
+    margin: 0px;
+    border-bottom: 1px solid #b1b3a7;
+}
+
+#content h3 {
+    color: #165673;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#content h2, h3, h4 {
+    margin-bottom: 0px;
+}
+
+#content h2 + p, h3 + p, h3+h4, h2+h3, h4+p{
+    margin-top: 5px;
+}
+
+#navBar {
+	min-width: 600px;
+    max-width: 1024px;
+    width: 80%;
+	height: 30px;
+	margin: 0px auto;
+    margin-left: 151px;
+	font-family: Arial, Sans-Serif;
+	font-size: 1em;
+	text-transform: uppercase;	
+}
+#navBar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#navBar li {
+	vertical-align: middle;
+    float: left;
+}
+#navBar a {
+	display: block;
+	height: 25px;
+	margin: 0px 4px 0px 0px;
+	padding: 5px 20px 0px 20px;
+    background-color: #abc;
+	color: #00334a;
+	vertical-align: middle;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -khtml-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+#navBar a:hover {
+	background-color: #bbccdd;
+}
+#navBar a.active {
+	background-color: #ddd;
+}
+
+.listTitle {
+    font-weight: bold;
+}
+
+.socialBox {
+  background-color: white;
+  float: right;
+}
+
+.form {
+  float: left;
+  width: 50%;
+}
+
+.form tr > td {
+  font-weight: bold;
+  text-align: right;
+}
+
+.form input {
+  padding: 2px;
+  font-size: 1.5em;
+}
+
+.greetBar {
+  margin-top: 0px;
+}
+
+.errorBox {
+  background-color: #F0EBB9;
+  padding: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+#content .errorBox h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0px;
+}
+
+#allPages {    
+}
+
+.pageListing {
+    float: left;
+    width: 40%;
+}
+
+.loading {
+    text-align: center;
+}
+.loading img {
+    float: center;
+    clear: both;
+}
+.loading .loadingText {
+    float: center;
+    display: block;
+}
+
+.pageButtons {
+    margin-top: 10px;
+    overflow: hidden;
+    clear: both;
+}
+.pageButton {
+    height: 23px;
+    padding: 1px 4px;
+    line-height: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    text-transform: lowercase;
+}
+.pageButton:hover {
+    background-color: #eee;
+}
+.pageButton.prev {
+    float: left;
+}
+.pageButton.next {
+    float: right;
+}
+.pageButton.prev img {
+    float: left;
+    margin-right: 2px;
+}
+.pageButton.next img {
+    float: right;
+    margin-left: 2px;
+}
+a .pageButton {
+    display: block;
+    color: black;
+}
+a .pageButton:hover {
+    text-decoration: underline;
+}
+
+code, .code {
+    font-family: Consolas, Monaco, Monospace;
+    font-size:1em;
+    background-color: #f3f3ff;
+}
+.term {
+    font-weight: bold;
+}
+
+dd + dt {
+    margin-top: 10px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.solutionBox {
+    padding: 3px;
+    margin: 0px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+.solutionBox > a {
+    font-size: 0.7 em;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-bottom: 3px;
+    color: black;
+}
+.solutionBox a:hover {
+    text-decoration: none;
+    border-color: black;
+}
+
+#footer {
+    color: #333;
+    font-family: Arial, Sans-serif;
+    font-size: 0.7em;
+    margin: 0px auto 20px auto;
+}

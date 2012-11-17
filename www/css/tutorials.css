@@ -1,0 +1,39 @@
+.tutorialListBox {
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    width: 300px;
+    margin: 0px 5px 10px 5px;
+}
+.tutorialBoxTitle {
+    font-size: 1em;
+    font-family: Arial, Sans-serif;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #007bad;
+    display: block;
+    width: 290px;
+}
+
+.tutorialListBox.coreTutorials {
+    margin: 0px auto 10px auto;
+}
+#nonCoreTutorials {
+    overflow: auto;
+    margin: 0px auto;
+    width: 624px;
+}
+.tutorialsTrack {
+    width: 312px;
+    float: left;
+}
+.tutorialListBox#htmlTutorials {
+    float: left;
+}
+.tutorialListBox#cssTutorials {
+    float: left;
+}
+.tutorialListBox#miscTutorials {
+    margin: 0px auto;
+}

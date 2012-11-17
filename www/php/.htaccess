@@ -1,0 +1,6 @@
+IndexIgnore *
+RedirectMatch 403 /feature\.php
+RedirectMatch 403 /footer\.php
+RedirectMatch 403 /header\.php
+RedirectMatch 403 /tutorials\.php
+RedirectMatch 403 /whiteboard\.php
